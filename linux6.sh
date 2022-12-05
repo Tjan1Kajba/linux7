@@ -35,8 +35,12 @@ then
     apt-get upgrade -y
 fi
 
+sudo apt-get install ufw
+sudo apt-get install git
+sudo apt-get install nginx -y
+sudo apt-get install net-tools
 
-apt-get install -y ufw git nginx net-tools
+
 if apt-get install -y ca-certificates curl gnupg lsb-release
 then
     mkdir -p /etc/apt/keyrings
