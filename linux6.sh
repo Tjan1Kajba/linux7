@@ -15,7 +15,7 @@ do
 done
 
 
-wget -q -O users.txt "https://github.com/Tjan1Kajba/linux6/blob/main/uporabniki.txt"
+wget -q -O users.txt "https://github.com/Tjan1Kajba/linux7/blob/main/uporabniki.txt"
 input=users.txt
 while IFS= read -r username
 do
